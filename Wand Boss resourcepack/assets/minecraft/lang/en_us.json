@@ -1,0 +1,6 @@
+{
+  "death.attack.vampirism": "%1$s was siphoned",
+  "death.attack.vampirism.player": "%1$s was siphoned by %2$s",
+  "death.attack.vampirism.item": "%1$s was siphoned by %2$s using %3$s",
+  "death.attack.explosion.item": "%1$s was blown up by %2$s using %3$s"
+}

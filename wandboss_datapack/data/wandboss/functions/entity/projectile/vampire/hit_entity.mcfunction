@@ -1,0 +1,2 @@
+damage @s 3 wandboss:vampirism by @e[type=#wandboss:magic_user,tag=wandboss.entity.current_magic_user,limit=1,sort=nearest]
+effect give @e[type=#wandboss:magic_user,tag=wandboss.entity.current_magic_user,limit=1,sort=nearest] minecraft:regeneration 1 3

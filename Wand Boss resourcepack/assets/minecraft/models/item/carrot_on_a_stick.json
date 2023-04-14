@@ -1,0 +1,14 @@
+{
+    "parent": "item/handheld_rod", 
+    "textures": {
+        "layer0": "item/carrot_on_a_stick"
+    },
+    "overrides": [
+        {"predicate":{"custom_model_data":1},"model":"item/wand/freeze"},
+        {"predicate":{"custom_model_data":2},"model":"item/wand/vampire"},
+        {"predicate":{"custom_model_data":3},"model":"item/wand/explosion"},
+        {"predicate":{"custom_model_data":4},"model":"item/wand/poison"},
+        {"predicate":{"custom_model_data":5},"model":"item/wand/summon"},
+        {"predicate":{"custom_model_data":6},"model":"item/wand/teleport"}
+    ]
+}

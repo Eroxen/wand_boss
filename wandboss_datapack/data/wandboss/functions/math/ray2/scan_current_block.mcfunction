@@ -1,0 +1,4 @@
+execute if predicate wandboss:ray2/full run function wandboss:math/ray2/hit/full
+execute unless predicate wandboss:ray2/full if block ~ ~ ~ #wandboss:ray2/partial run function wandboss:math/ray2/hit/partial
+execute unless predicate wandboss:ray2/full if block ~ ~ ~ #wandboss:ray2/partial align x align y align z if entity @e[predicate=wandboss:ray2/entity_targetable,dx=0,dy=0,dz=0] run data modify entity @s Pos set from storage wandboss:calc math.ray2.crossings[-2]
+execute align x align y align z if entity @e[predicate=wandboss:ray2/entity_targetable,dx=0,dy=0,dz=0] run function wandboss:math/ray2/hit/entity
